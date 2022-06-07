@@ -226,3 +226,9 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+}

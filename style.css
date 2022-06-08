@@ -231,4 +231,54 @@ footer {
   header {
     width: 100%;
   }
+  
+  .social {
+    display: none;
+  }
+ 
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  
+  .main-visual-content {
+    width: 100%;
+  }
+  
+  .main-visual-text {
+    width: 100%
+  }
+  
+  main {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+  
+  .sidebar-content {
+    text-align: center;
+  }
+  
+  .instagram-box {
+    margin-right: 10px;
+  }
+  
+  .blog {
+    width: 100%;
+  }
+  
+  .blog-image {
+    width: 50%;
+  }
+  
+  .blog-text {
+    width: 50%
+  }
 }

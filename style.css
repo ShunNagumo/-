@@ -130,7 +130,7 @@ main {
   font-size: 11px;
 }
 
-.pagenation {
+.pagination {
   text-align: center;
   padding-top: 50px;
 }
@@ -249,36 +249,49 @@ footer {
     width: 100%;
   }
   
-  .main-visual-text {
-    width: 100%
-  }
-  
   main {
     width: 100%;
-    flex-direction: column;
+    display: block;
+  }
+  
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .blog-image {
+    width: 49%;
+  }
+  
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
   }
   
   .sidebar {
     width: 100%;
   }
   
-  .sidebar-content {
-    text-align: center;
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
   }
   
   .instagram-box {
-    margin-right: 10px;
+    width: 48%;
+    padding-top: 48%;
   }
   
-  .blog {
-    width: 100%;
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
   }
   
-  .blog-image {
-    width: 50%;
-  }
-  
-  .blog-text {
-    width: 50%
+  .pagination {
+    margin-bottom: 50px;
   }
 }
